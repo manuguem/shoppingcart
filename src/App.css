@@ -50,3 +50,13 @@ header{
 .centerButton {
   align-items: center;
 }
+
+.centerCard {
+    display: inline-block;
+    text-align: center;
+    width: 15rem;
+    height: 20rem;
+    offset-distance: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
