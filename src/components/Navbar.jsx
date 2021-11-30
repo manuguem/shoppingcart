@@ -4,7 +4,6 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import Badge from '@mui/material/Badge';
 import MenuItem from '@mui/material/MenuItem';
@@ -16,6 +15,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import  { Link } from "react-router-dom";
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -170,14 +170,14 @@ export default function Navbar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
+          <Link className="styleLink" to="/"
             variant="h6"
             noWrap
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            MUI
-          </Typography>
+            PCSTUFF
+          </Link>
           <Search>
             <SearchIconWrapper>
               <SearchIcon />

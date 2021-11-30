@@ -1,7 +1,7 @@
 const data = [
     {
         "id": 1,
-        "image": "https://manuguem.github.io/pcstuff-project/img/imagenes/monitorasus2.png",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_947494-MPE41441193989_042020-O.jpg",
         "title": "Monitor Gaming ASUS 165hz",
         "description": "Hardware Product",
         "category": "Monitores",
@@ -11,7 +11,7 @@ const data = [
     },
     {
         "id": 2,
-        "image": "https://manuguem.github.io/JavaScriptCH/img/imagenes/Hyper%20H411R.png",
+        "image": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dw1a80c7d3/images/imagenes-productos/800/MK5V/MK5VXYJYPX-002.jpg?sw=513&sh=654&sm=fit",
         "title": "CoolerMaster H411R CPU Fan",
         "description": "Hardware Product",
         "category": "Coolers",
@@ -21,8 +21,8 @@ const data = [
     },
     {
         "id": 3,
-        "image": "https://manuguem.github.io/JavaScriptCH/img/imagenes/corsaircarbide.png",
-        "title": "Corsair 4000D Airflow",
+        "image": "https://www.system1it.com/wp-content/uploads/2021/02/corsair-crystal-series-680x-rgb-atx-high-airflow-tempered-glass-smart-case.png",
+        "title": "Corsair Crystal series 680x RGB",
         "description": "Hardware Product",
         "category": "Gabinetes",
         "price": "15000",

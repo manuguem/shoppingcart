@@ -4,11 +4,13 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
+import { CardActionArea} from '@mui/material';
+import { Link } from "react-router-dom";
 
-const Item = ({ price, stock, image, title }) => {
+const Item = ({ price, stock, category, image, title, id }) => {
     return (
-        <Card className="centerCard" sx={{ maxWidth: 345 }}>
+        <Link to={`/item/${id}`}>
+        <Card className="cardPosition">
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -29,20 +31,8 @@ const Item = ({ price, stock, image, title }) => {
                 </CardContent>
             </CardActionArea>
         </Card>
-
+        </Link>
     );
 }
-
-//     return (
-//         <div>
-//         <h2>{title}</h2>
-//         <h3>{description}</h3>
-//         <div>{image}</div>
-//         <p>{price}</p>
-//         <p>Stock:{stock}</p>
-//         </div>
-
-//     )
-// }
 
 export default Item
