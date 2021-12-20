@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "https://manuguem.github.io/pcstuff-project/img/imagenes/monitorasus2.png",
+        "image": "https://images.samsung.com/is/image/samsung/assets/ar/home/376x376-S21.png?$376_376_PNG$",
         "title": "Monitor Gaming ASUS 165hz",
         "description": "Hardware Product",
         "category": "Monitores",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "image": "https://manuguem.github.io/JavaScriptCH/img/imagenes/Hyper%20H411R.png",
+        "image": "https://images.samsung.com/is/image/samsung/assets/ar/home/AU7000160x1601.png?$160_160_PNG$",
         "title": "CoolerMaster H411R CPU Fan",
         "description": "Hardware Product",
         "category": "Coolers",
@@ -21,8 +21,18 @@
     },
     {
         "id": 3,
-        "image": "https://external-preview.redd.it/NCl0DM_m_jXp48lSio-k058_9p5vv6fXeXLV6vMC-aE.jpg?auto=webp&s=c09dc654b68a91a85d2ba3835c591f26419b833b",
-        "title": "Corsair 4000D Airflow",
+        "image": "https://images.samsung.com/is/image/samsung/assets/ar/home/WW90J5410GW160x1601.png?$160_160_PNG$",
+        "title": "Corsair Crystal series 680x RGB",
+        "description": "Hardware Product",
+        "category": "Gabinetes",
+        "price": "15000",
+        "stock": "12"
+
+    },
+    {
+        "id": 4,
+        "image": "https://images.samsung.com/is/image/samsung/assets/ar/2108/home/Home_trending_PC_Fresh.png?$160_160_PNG$",
+        "title": "Corsair Crystal series 680x RGB",
         "description": "Hardware Product",
         "category": "Gabinetes",
         "price": "15000",

@@ -1,7 +1,7 @@
 const data = [
     {
         "id": 1,
-        "image": "https://http2.mlstatic.com/D_NQ_NP_947494-MPE41441193989_042020-O.jpg",
+        "image": "https://images.samsung.com/is/image/samsung/assets/ar/home/376x376-S21.png?$376_376_PNG$",
         "title": "Monitor Gaming ASUS 165hz",
         "description": "Hardware Product",
         "category": "Monitores",
@@ -11,7 +11,7 @@ const data = [
     },
     {
         "id": 2,
-        "image": "https://www.paris.cl/dw/image/v2/BCHW_PRD/on/demandware.static/-/Sites-paris-marketplace/default/dw1a80c7d3/images/imagenes-productos/800/MK5V/MK5VXYJYPX-002.jpg?sw=513&sh=654&sm=fit",
+        "image": "https://images.samsung.com/is/image/samsung/assets/ar/home/AU7000160x1601.png?$160_160_PNG$",
         "title": "CoolerMaster H411R CPU Fan",
         "description": "Hardware Product",
         "category": "Coolers",
@@ -21,7 +21,17 @@ const data = [
     },
     {
         "id": 3,
-        "image": "https://www.system1it.com/wp-content/uploads/2021/02/corsair-crystal-series-680x-rgb-atx-high-airflow-tempered-glass-smart-case.png",
+        "image": "https://images.samsung.com/is/image/samsung/assets/ar/home/WW90J5410GW160x1601.png?$160_160_PNG$",
+        "title": "Corsair Crystal series 680x RGB",
+        "description": "Hardware Product",
+        "category": "Gabinetes",
+        "price": "15000",
+        "stock": "12"
+
+    },
+    {
+        "id": 4,
+        "image": "https://images.samsung.com/is/image/samsung/assets/ar/2108/home/Home_trending_PC_Fresh.png?$160_160_PNG$",
         "title": "Corsair Crystal series 680x RGB",
         "description": "Hardware Product",
         "category": "Gabinetes",

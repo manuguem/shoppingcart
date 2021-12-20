@@ -8,12 +8,6 @@ const ItemListContainer = ({ greeting }) => {
 const [products, setProducts] = useState([])
 console.log(products)
 
-    const obtainProductsFetch = () => {
-        fetch("../JSON/DataList.json")
-         .then((response) => console.log(response))
-         //.then((data) => console.log('A ver la data', data));
-    };
-
     useEffect(() => {
         getProducts
             .then((res) => setProducts(res))
@@ -22,8 +16,8 @@ console.log(products)
 
     return (
         <>
-            <h2>Los mejores precios</h2>
-            <ItemCount stock={5} initial={1} />
+            {/* <h2>Los mejores precios</h2>
+            <ItemCount stock={5} initial={1} /> */}
             <ItemList products={products}/>
         </>
     );

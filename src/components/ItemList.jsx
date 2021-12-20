@@ -1,4 +1,4 @@
-import Item from './Item'
+import Products from './Products'
 
 const ItemList = ({ products }) => {
 
@@ -6,7 +6,7 @@ const ItemList = ({ products }) => {
         <div className='containerItemList'>
             {products.map(product => {
                 return (
-                    <Item
+                    <Products
                         key={product.id}
                         id={product.id}
                         image={product.image}
